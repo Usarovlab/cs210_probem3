@@ -1,0 +1,11 @@
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+       double w=4.5;
+        double  h=7.9;
+        double  a=w*h;
+        double p=2*(w+h);
+       System.out.println(a);
+       System.out.println(p);
+    }
+}
