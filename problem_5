@@ -1,0 +1,11 @@
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+       double side=3;
+        double  length=5;
+        double  area=(Math.pow(side,2))*(Math.sqrt(3)/4);
+        double volume=area*length;
+       System.out.println(area);
+       System.out.println(volume);
+    }
+}
