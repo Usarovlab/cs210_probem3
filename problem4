@@ -1,0 +1,13 @@
+
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+       double radius=5.5;
+       double PI=3.14;
+        double  length=12;
+        double  area=radius*radius*Math.PI;
+        double volume=area*length;
+       System.out.println(area);
+       System.out.println(volume);
+    }
+}
